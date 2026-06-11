@@ -1,82 +1,85 @@
 const profile = {
-  name: "Sanjeev Tripurari",
+  name: "ANJALI.V",
 
   role:
-    "Consultant | Mentor | BigData | DevOps | System Design",
+    "AI |Cloud Computing | DevOps |",
 
   company:
-    "Co-Founder BintyByte Technologies, Softoria",
+    "SuprMentr Technologies Private Limited ",
 
   about: `
-Experienced technology consultant with expertise in BigData, 
-Data Engineering, DevOps, Kubernetes, System Design and scalable platforms.
+leaning 
+linux, DevOps, Kubernetes, System Design , docker,python.
 
-Worked with startups and enterprises including:
-Retort, Softoria, Cybertech, Rediff, AOL, Yahoo and InMobi.
+intership under SuprMentr Technologies Private Limited 
 
-Passionate about mentoring students, conducting seminars,
-meetups, hackathons and training sessions.
+Passionate about cloude and AI and AWS devops.
   `,
 
   experience: [
-    "Ex-Retort",
-    "Ex-Softoria",
-    "Ex-Cybertech",
-    "Ex-Rediff",
-    "Ex-AOL",
-    "Ex-Yahoo",
-    "Ex-InMobi"
+    "AI with cloud computing",
+    "AWS Devops",
+
   ],
 
   certifications: [
-    "Certified Cloudera Hadoop Administrator",
-    "Certified Agile Scrum Master"
+    "Certified AI with cloud computing",
+    
   ],
 
   expertise: [
-    "BigData",
-    "Data Engineering",
-    "Kafka",
+    "linux",
+    "Docker",
     "DevOps",
     "Kubernetes",
     "System Design",
-    "Hadoop",
-    "Cassandra",
     "Cloud"
   ],
 
   github:
-    "https://github.com/sanjeevtripurari",
+    "https://github.com/anjalivgowda8",
 
   linkedin:
-    "https://www.linkedin.com/in/sanjeevtripurari",
+    "https://www.linkedin.com/in/anjali-v-gowda-15088b337/",
 
   resume:
-    "/resume.pdf",
+    "c:\Users\ADMIN\Downloads\anjali v (cv).pdf",
 
   projects: [
     {
-      title: "Chillout Weekend Planner",
+      title: "Nginx-rotate-app",
 
       overview:
       `
-      This agent is for marketing agencies, to help people have weekend plans, and list out near by restaurants, chill-out places, drives ways, hangout places
-This is useful for marketing team to fetch the data and use for marketing based on users travel plans on popular locations, this will help what are currently available routes, and places, so users can be targetted..
-
-      `,
+      To rotate Nginx log files for a specific app project, you use the Linux logrotate utility. It prevents your server disk from filling up by splitting, compressing, and deleting old logs automatically. `,
       technical:
         ` 
-        This agent is completely build on agent.ai platform.
-        `,
+      Nginx does not natively rotate log files. To handle log rotation properly without dropping requests, system administrators typically use the Logrotate utility alongside a kill -USR1 command to force Nginx to switch to a fresh log file.       `,
 
       techStack: [
-        "agent.ai builder",
-        "Perplexity",
-        "Gemini pro"
+        "Advance system",
+        "web page",
+        "Scripting"
       ],
+      title:  "Third Eye for a Blind Person",
+
+      overview:
+       `
+      The "Third Eye for a Blind Person" is a wearable assistive project that helps visually impaired individuals navigate their surroundings independently. It uses proximity sensors to detect obstacles and converts that data into real-time audio or haptic feedback. `, 
+      technical: [
+        "Microcontroller",
+        "Sensors",
+        "Perception",
+      ]
+
+      techStack: [
+        "Core Processing Unit",
+        "Sensors & Input Devices",
+        "Software & Machine Learning",
+      ]
 
       github:
-        "https://agent.ai/agent/Chillout_Weekend_Planner",
+        "https://github.com/anjalivgowda8/nginx-rotate-app-",
 
       youtube:
         "https://youtu.be/qncHRRI5K04",
