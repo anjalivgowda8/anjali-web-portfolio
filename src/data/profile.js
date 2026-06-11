@@ -1,39 +1,39 @@
 const profile = {
-  name: "ANJALI.V",
+  name: "Anjali V Gowda",
 
   role:
-    "AI |Cloud Computing | DevOps |",
+    "AI | Cloud Computing | DevOps Enthusiast",
 
   company:
-    "SuprMentr Technologies Private Limited ",
+    "SuprMentr Technologies Private Limited",
 
   about: `
-leaning 
-linux, DevOps, Kubernetes, System Design , docker,python.
+Passionate about Artificial Intelligence, Cloud Computing, and DevOps technologies.
 
-intership under SuprMentr Technologies Private Limited 
+Currently learning Linux, Docker, Kubernetes, System Design, Python, and AWS DevOps while gaining hands-on experience through projects and internships.
 
-Passionate about cloude and AI and AWS devops.
+Interested in building scalable cloud-native applications and continuously improving technical skills in cloud and automation technologies.
   `,
 
   experience: [
-    "AI with cloud computing",
-    "AWS Devops",
-
+    "AI with Cloud Computing Internship",
+    "AWS DevOps Training",
+    "Cloud and DevOps Projects"
   ],
 
   certifications: [
-    "Certified AI with cloud computing",
-    
+    "Certified AI with Cloud Computing"
   ],
 
   expertise: [
-    "linux",
+    "Linux",
     "Docker",
     "DevOps",
     "Kubernetes",
     "System Design",
-    "Cloud"
+    "AWS",
+    "Cloud Computing",
+    "Python"
   ],
 
   github:
@@ -43,46 +43,57 @@ Passionate about cloude and AI and AWS devops.
     "https://www.linkedin.com/in/anjali-v-gowda-15088b337/",
 
   resume:
-    "c:\Users\ADMIN\Downloads\anjali v (cv).pdf",
+    "/resume.pdf",
 
   projects: [
     {
-      title: "Nginx-rotate-app",
+      title: "Nginx Rotate App",
 
-      overview:
-      `
-      To rotate Nginx log files for a specific app project, you use the Linux logrotate utility. It prevents your server disk from filling up by splitting, compressing, and deleting old logs automatically. `,
-      technical:
-        ` 
-      Nginx does not natively rotate log files. To handle log rotation properly without dropping requests, system administrators typically use the Logrotate utility alongside a kill -USR1 command to force Nginx to switch to a fresh log file.       `,
+      overview: `
+This project automates Nginx log rotation using the Linux Logrotate utility. It helps prevent disk space issues by compressing, archiving, and removing old log files automatically.
+      `,
+
+      technical: `
+Nginx does not rotate logs by itself. This project uses Logrotate along with the USR1 signal to safely switch Nginx to a new log file without interrupting running services.
+      `,
 
       techStack: [
-        "Advance system",
-        "web page",
-        "Scripting"
+        "Linux",
+        "Nginx",
+        "Logrotate",
+        "Shell Scripting"
       ],
-      title:  "Third Eye for a Blind Person",
-
-      overview:
-       `
-      The "Third Eye for a Blind Person" is a wearable assistive project that helps visually impaired individuals navigate their surroundings independently. It uses proximity sensors to detect obstacles and converts that data into real-time audio or haptic feedback. `, 
-      technical: [
-        "Microcontroller",
-        "Sensors",
-        "Perception",
-      ]
-
-      techStack: [
-        "Core Processing Unit",
-        "Sensors & Input Devices",
-        "Software & Machine Learning",
-      ]
 
       github:
         "https://github.com/anjalivgowda8/nginx-rotate-app-",
 
       youtube:
-        "https://youtu.be/qncHRRI5K04",
+        ""
+    },
+
+    {
+      title: "Third Eye for a Blind Person",
+
+      overview: `
+A wearable assistive technology project designed for visually impaired individuals. The system detects nearby obstacles and provides real-time audio or vibration feedback to help users navigate safely.
+      `,
+
+      technical: `
+The project uses sensors and a microcontroller to detect obstacles in the user's path. The collected data is processed and converted into alerts that improve mobility and safety.
+      `,
+
+      techStack: [
+        "Microcontroller",
+        "Sensors",
+        "Embedded Systems",
+        "Hardware Integration"
+      ],
+
+      github:
+        "",
+
+      youtube:
+        "https://youtu.be/qncHRRI5K04"
     }
   ]
 }
